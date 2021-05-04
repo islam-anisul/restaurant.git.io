@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    scroll-behavior: smooth;
+}
+a,a:hover{
+    text-decoration: none;
+    transition: all linear .3s;
+}
+p,h1;h2;h3;h4;h5;h6{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+ul,ol,li{
+    list-style-type: none;
+}
+.separator{
+    display: block;
+    margin: 0 auto;
+}
+.bottons{
+    background: rgba(255, 255, 255, 0.4);
+    font-size: 18px;
+    color: #fff;
+    transition: all linear .3s;
+    border: 1px solid #dddac6;
+    border-radius: 0;
+}
+.title{
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+.title_1_golden{
+    font-size: 36px;
+    font-weight: 700;
+    color: #cc9900;
+    text-align: center;
+}
+.header_bg{
+    background: rgba(204, 153, 0, 0.7) !important;
+    animation-name: headerbg;
+    animation-duration: 1s;
+    transition: all linear 1s;
+}
+
+@keyframes headerbg{
+    from{
+       top: -10px; 
+    }
+    
+    to{
+        top: 0;
+        
+    }
+}
+/*------------COMMON CSS-----------*/
+
+/*----------MAIN MENU START-------*/
+.navbar{
+    background: url(../images/menu/menu-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.nav-link{
+    font-size: 21px;
+    color: #fff;
+    font-weight: 700;
+    position: relative;
+}
+.nav-link::after{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    top: -36px;
+    left: 0;
+    right: 0;
+    background: #c89f2d;
+    opacity: 0;
+    transition: all linear .3s;
+}
+.nav-item:hover .nav-link::after{
+    opacity: 1;
+}
+.nav-item{
+    padding: 0 17px;
+}
+.nav-item:first-child{
+    padding-left: 0
+}
+.nav-item:last-child{
+    padding-right: 0;
+}
+.navbar-brand img{
+    height: 35px;
+}
+/*------------MAIN MENU END---------*/
+
+/*-----------BANNER START---------*/
+#banner{
+    padding-top: 265px;
+    padding-bottom: 140px;
+    background: url(../images/banner/banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.banner_item h1{
+    font-size: 90px;
+    font-weight: 400;
+    color: #fff;
+}
+.banner_item img{
+    margin-top: 30PX;
+}
+.banner_item button{
+    margin-top: 30PX;
+    margin-left: 25px;
+}
+.banner_item button:first-child{
+    margin-left: 0;
+}
+.banner_item button:hover{
+    background: rgba(0, 0, 0, 0.4) ;
+}
+/*--------------BANNER END-------------*/
+/*-----------------ABOUT START------------*/
+#about{
+    padding-top: 75px;
+    padding-bottom: 85px;
+    background: url(../images/about/about-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.about_text .separator{
+    margin-top: 10px;
+}
+.about_text  p{
+    font-size: 16px;
+    color: #4c4c4c;
+    margin-top: 25px;
+}
+.about_text .cook{
+    margin-top: 30px;
+}
+.about_text h3{
+    margin-top: 30px;
+}
+/*----------ABOUT END---------*/
+/*------------INGREDIENTS START--------*/
+#ingredients{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url(../images/ingredients/ingredients-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.ingredients_content{
+    padding: 80px 70px;
+    background: rgba(0, 0, 0, 0.4);
+}
+.ingredients_item .separator{
+    margin-top: 25px;
+}
+.ingredients_item p{
+    font-size: 16px;
+    color: #fff;
+    margin-top: 30px;
+}
+.ingredients_item .ingredients_img{
+    margin-top: 55px;
+    margin-left: 20px;
+}
+.ingredients_item .ingredients_img:first-child{
+    margin-left: 0;
+}
+/*------------INGREDIENTS END--------*/
+/*--------------MENU START--------*/
+#menu{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url(../images/menu/menu-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.menu_left_item{
+    padding: 0 70px;
+}
+.menu_left_item .separator{
+    margin-top: 10px;
+}
+.menu_left_item .menu_header{
+    font-size: 21px;
+    font-weight: 400;
+    color: #c89f2d;
+    margin-top: 30px;
+    position: relative;
+    font-weight: 700;
+}
+.menu_left_item .menu_header::after{
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 100%;
+    right: 0;
+    left: 0;
+    bottom: -10px;
+    background: #c89f2d;
+}
+.menu_left_item .menu_header span{
+    position: absolute;
+    right: 0
+}
+.salad{
+    margin-top: 70px;
+}
+.menu_right_item .menu_header{
+    font-size: 21px;
+    font-weight: 400;
+    color: #c89f2d;
+    margin-top: 30px;
+    position: relative;
+    font-weight: 700;
+}
+.menu_right_item .menu_header::after{
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 100%;
+    right: 0;
+    left: 0;
+    bottom: -10px;
+    background: #c89f2d;
+}
+.menu_right_item .menu_header span{
+    position: absolute;
+    right: 0
+}
+.main_dish{
+    margin-top: 70px;
+}
+.menu_right{
+    padding: 0 70px;
+}
+/*-----------------MENU END-------------*/
+/*-----------REVIEW START--------*/
+#review{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url(../images/review/review-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.review_content{
+    background: rgba(0, 0, 0, 0.7);
+    padding-top: 80px;
+    padding-bottom: 100px;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+.review_item .separator{
+    margin-top: 15px;
+}
+.review_item p{
+    font-size: 25px;
+    color: #dde0df;
+    font-weight: 700;
+    margin-top: 25px;
+}
+.review_item p small{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff
+}
+.review_item .colon{
+    position: absolute;
+    left: 40px;
+    top: 180px;
+}
+/*---------------REVIEW END-------------*/
+/*--------RIGHT FOOD START-----------*/
+#right_food{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url(../images/right-food/right-food-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.right_food_img{
+    display: flex;
+}
+.right_food_img img{
+    margin-left: 30px;
+}
+.right_food_img img:first-child{
+    margin-left: 0;
+}
+.right_food_text h3{
+    margin-top: -10px;
+  
+}
+.right_food_text .separator{
+    margin-top: 15px;
+}
+.right_food_text p{
+    font-size: 16px;
+    color: #4c4c4c;
+    line-height: 24px;
+    margin-top: 30px;
+}
+.right_food_text p:last-child{
+    margin-top: 0;
+}
+.right_food_content{
+    padding: 0 70px;
+}
+.right_food_content button{
+   text-transform: capitalize;
+    font-size: 16px;
+    color: #fff;
+    background: #c9a131;
+    margin-top: 15px;
+    padding: 10px 60px;
+    border-radius: 0;
+}
+.right_food_content form {
+    text-align: left !important;
+} 
+.right_food_content form label{
+    font-size: 14px;
+    font-weight: 700;
+    color: #c9a131;
+}
+.right_food_content form input{
+    background: none;
+    border-radius: 0;
+}
+.right_food_content form select{
+     background: none;
+    border-radius: 0;
+}
+/*-------------RIGHT FOOD END-----------*/
+/*-------BACK TO TOP---------*/
+#back_top_button {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+#back_top_button p a img {
+    height: 40px;
+    width: 40px;
+    background: rgba(201, 161, 49, 0.5);
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+}
+/*-------BACK TO TOP END---------*/
+/*------------FOOTER START---------*/
+#footer{
+    background: #191919;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer_menu h3{
+    font-size: 21px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+}
+.footer_menu .footer_separator{
+    margin-top: 10px;
+}
+.footer_about p{
+    font-size: 16px;
+    color: #fff;
+    margin-top: 20px;
+}
+.opening_hours p{
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+.opening_hours img{
+    margin-bottom: 15px;
+}
+.olcation p{
+    font-size: 16px;
+    color: #fff;
+    margin-top: 20px;
+}
+.olcation p span{
+    display: block;
+}
+/*---------FOOTER END------------*/

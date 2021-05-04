@@ -1,0 +1,392 @@
+@media (max-width: 1199.98px) {}
+
+
+@media (max-width: 991.98px) {
+    .navbar {
+        background: rgba(204, 153, 0, 0.8) !important;
+    }
+    .navbar-collapse {
+	text-align: center;
+	background: rgba(0, 0, 0, 0.8);
+}
+    .navbar-nav .nav-link {
+        color: #fff !important;
+        display: inline-block;
+    }
+
+    .nav-link::after {
+        top: 0px;
+        left: 0;
+        right: 0;
+        background: #fff;
+    }
+        
+    #banner {
+	padding-top: 200px;
+	padding-bottom: 100px;
+}
+    .banner_item h1 {
+	font-size: 66px;
+}
+    .banner_item img {
+	margin-top: 40PX;
+}
+    .banner_item button {
+	margin-top: 45PX;
+}
+   
+    #about {
+	padding-bottom: 80px;
+}
+    
+    
+    #ingredients {
+	padding-top: 80px;
+	padding-bottom: 80px;
+    }
+    
+    .ingredients_content {
+	padding: 20px;
+}
+    
+    .ingredients_item .ingredients_img {
+	margin-top: 55px;
+	margin-left: 11px;
+	height: 80px;
+}
+    
+    #menu {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+    .menu_right {
+	padding: 10px;
+}
+    
+    .menu_left_item {
+	padding: 10px;
+}
+    
+    #review {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+    
+    
+    .review_content {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-right: 60px;
+	padding-left: 60px;
+}
+    
+    .review_item .colon {
+	position: absolute;
+	left: 35px;
+	top: 160px;
+}
+    
+    
+    .right_food_content {
+	padding: 0 10px;
+}
+    
+    .right_food_img img {
+	margin-left: 30px;
+	margin-top: 80px;
+}
+    .footer_about p {
+	padding: 0 40px;
+}
+    
+    .footer_menu h3 {
+	margin-top: 30px;
+}
+    .right_food_img img {
+	
+	margin-top: 0;
+}
+    .right_food_text h3 {
+	margin-top: 30px;
+}
+    .about_img{
+        padding-top: 115px;
+    }
+    
+}
+
+@media (max-width: 767.98px) {
+
+    .navbar {
+        background: rgba(204, 153, 0, 0.8) !important;
+    }
+
+    .navbar-nav .nav-link {
+        color: #fff !important;
+        display: inline-block;
+    }
+    .navbar-collapse {
+	text-align: center;
+	background: rgba(0, 0, 0, 0.8);
+}
+    .nav-link::after {
+        top: 0px;
+        left: 0;
+        right: 0;
+        background: #fff;
+
+    }
+
+    .banner_item h1 {
+        font-size: 55px;
+    }
+
+    #about {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .about_img {
+        margin-top: 20px;
+    }
+
+    #ingredients {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .ingredients_content {
+        padding: 25px 20px;
+    }
+
+    #menu {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .menu_left_item {
+        padding: 0;
+    }
+
+    #review {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .review_content {
+        padding-top: 35px;
+        padding-bottom: 35px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .review_item .colon {
+        position: absolute;
+        left: 15px;
+        top: 135px;
+    }
+
+    .right_food_text h3 {
+        margin-top: 40px;
+    }
+
+    .right_food_content {
+        padding: 0 20px;
+    }
+.menu_header .head_span {
+        font-size: 18px;
+        position: absolute;
+        left: 80px !important;
+        top: 5px;
+    }
+
+}
+
+
+@media (max-width: 575.98px) {
+    .navbar {
+        background: rgba(204, 153, 0, 0.8) !important;
+    }
+    .navbar-collapse {
+	text-align: center;
+	background: rgba(0, 0, 0, 0.8);
+}
+    .navbar-nav .nav-link {
+        color: #fff !important;
+        display: inline-block;
+    }
+
+    .nav-link::after {
+        top: 0px;
+        left: 0;
+        right: 0;
+        background: #fff;
+
+    }
+
+    #banner {
+        padding-top: 140px;
+        padding-bottom: 70px;
+    }
+
+    .banner_item h1 {
+        font-size: 29px;
+        font-weight: 700;
+    }
+
+    #about {
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+
+    .about_img {
+        margin-top: 20px;
+    }
+
+    #ingredients {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .ingredients_content {
+        padding: 30px 10px;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+
+    .ingredients_item .ingredients_img {
+        margin-top: 15px;
+        margin-left: 5px;
+        height: 77px;
+    }
+
+    #menu {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .menu_left_item {
+        padding: 0px 15px;
+    }
+
+    .starter .menu-item h3 {
+        margin-top: 25px;
+    }
+
+    .menu_right {
+        padding: 0 15px;
+    }
+
+    .menu_header .head_span {
+        font-size: 15px;
+        position: absolute;
+        left: 80px !important;
+        top: 5px;
+    }
+
+    #review {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+
+    .review_content {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .review_item p {
+        font-size: 16px;
+        margin-top: 35px;
+    }
+
+    .review_item .colon {
+        position: absolute;
+        left: 20px;
+        top: 125px;
+    }
+
+    #right_food {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .title_1_golden {
+        font-size: 30px;
+    }
+
+    .right_food_content {
+        padding: 0 15px;
+    }
+
+    .right_food_text h3 {
+        margin-top: 25px;
+    }
+
+    #back_top_button {
+    right: 10px;
+    bottom: 55px;
+}
+#back_top_button p a img {
+    height: 20px;
+    width: 20px;
+
+}
+       .banner_item button {
+	margin-top: 30PX;
+       margin-left: 7px;
+       color: #000;
+} 
+    .banner_item button:hover{
+        color: #fff;
+    }
+        .right_food_img img {
+	margin-top: 15px;
+        margin-left: 0;
+}
+    .right_food_img {
+	display: flex;
+	flex-direction: column;
+}
+}
+
+@media (max-width: 360px){
+    .navbar-collapse {
+	text-align: center;
+	background: rgba(0, 0, 0, 0.8);
+}
+    .banner_item h1 {
+	font-size: 22px;
+}
+    #banner {
+	padding-top: 90px;
+	padding-bottom: 70px;
+}
+   .banner_item button {
+	margin-top: 30PX;
+       margin-left: 7px;
+       color: #000;
+} 
+    .banner_item button:hover{
+        color: #fff;
+    }
+    .about_text .cook {
+	margin-top: 20px;
+}
+    .about_img img {
+	margin-top: 0;
+}
+    .right_food_img img {
+	margin-top: 15px;
+        margin-left: 0;
+}
+    .right_food_img {
+	display: flex;
+	flex-direction: column;
+}
+    
+}
